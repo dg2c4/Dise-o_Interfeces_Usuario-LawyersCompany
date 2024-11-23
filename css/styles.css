@@ -1,0 +1,223 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #E0BF3D;
+    border:4px solid #000000;
+    padding: 20px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    height: 100px;
+    align-items: start;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border:1.5px solid #000000;
+}
+
+header h1 {
+    font-size: 24px;
+    align-items: center;
+    color: #fff;
+}
+
+header h2 {
+    font-size: 24px;
+    align-items: center;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    padding: 5px 10px;
+    align-items: flex-start;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    align-items: end;
+    text-align: end;
+    padding: 15px 20px;
+    border: none;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contact-form {
+    margin: 20px;
+    justify-content: center;
+}
+
+.contact-form label, .contact-form input, .contact-form button {
+    display: block;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}  
+
+.centrado{
+    background-color: #f7ff7c;
+    border:2px solid #000000;
+}
+
+
+
+
+/*Login Styles Contact Form*/
+body.login {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0px  20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    background-color: #ffffff;
+}
+
+main.login {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    max-width: 400px;
+    width: 100%;
+}
+
+h2.login {
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+label.login {
+    margin-bottom: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    color: #000000;
+    border:2px solid #000000;
+}
+
+input.login[type="text"], input[type="email"], input[type="id"], input[type="name"] {
+    width: 600px;
+    padding: 15px;
+    border: 1.5px solid #000000;
+    border-radius: 25px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button.login {
+    background-color: #E0BF3D;
+    color: #ffffff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover.login {
+    background-color: #0056b3;
+}
+
+form div.login {
+    margin-bottom: 15px;
+}
+
+
+/* Responsivo */
+  
+@media (max-width: 2000px) {
+/*Style Header*/
+    header {
+        flex-direction: row;
+        align-items: center;
+        text-align: center;  
+    }
+
+    header img {
+        margin-bottom: 0.5rem;
+    }
+
+    header button {
+        margin-top: 0.5rem;
+    }
+/*Tamaño Pixeles De Textos: */
+    .content {
+        padding: 0 50px;
+    }
+/*CSS Encabezados-Titulos: */
+    .centrado {
+        text-align: center;
+        align-items: center;
+        text-align: center;
+      }
+}
+
+@media (max-width: 2000px) {
+    header h1 {
+        font-size: clamp(1.5rem, 3vw, 2.5rem);
+        text-align: center;
+    }
+
+    .content {
+        font-size: 14px;
+        margin-top: 0.5rem;
+    }
+
+    .centrado {
+        text-align: center;
+        margin-top: 0.5rem;
+      } 
+}
+
+
+/*Estilo-CSS: Documentación Lawyers Company (3)*/
+.links-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #E0BF3D;
+    border:2.5px solid #000000;
+}
+
+.links-list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.links-list li {
+    list-style-type: none;
+}
+
+.links-list a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+.links-list a:hover {
+    color: #ffffff;
+}
