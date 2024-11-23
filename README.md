@@ -3,7 +3,7 @@
 
 ## *Link de acceso al proyecto final:*
 
-    https://github.com/ValerosoV
+    https://dise-o-interfeces-usuario-lawyers-company.vercel.app/
 
 # *Lawyers-Company*
 <p align="center">
